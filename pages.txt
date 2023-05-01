@@ -1,0 +1,14 @@
+home (default)
+create account
+login
+products 
+buy
+sell
+
+// 6 Apr Update!!
+
+Home page done (responsive)
+login/sugn up wll be done 
+Products remaining
+buy page half done
+sell page remaining

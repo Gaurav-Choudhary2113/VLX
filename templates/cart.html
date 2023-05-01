@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" >
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" ></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script>
+        <script src="../webdev/w.js"></script>
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="cart.css">
+
+    </head>
+    <body>
+        <section id="nav-bar">
+            <nav class="navbar bg-body-tertiary fixed-top bg-dark ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">logo</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </section>
+        <header id="site-header">
+            <div class="container">
+              <h1>Your cart <span></span> <em><a href="https://codepen.io/tag/rodeo-007" target="_blank"></a></em> <span class="last-span is-open"></span></h1>
+            </div>
+          </header>
+        
+          <div class="container">
+        
+            <section id="cart"> 
+              <article class="product">
+                <header>
+                  <a class="remove">
+                    <img src="http://www.astudio.si/preview/blockedwp/wp-content/uploads/2012/08/1.jpg" alt="">
+        
+                    <h3>Remove product</h3>
+                  </a>
+                </header>
+        
+                <div class="content">
+        
+                  <h1>Sculpture</h1>
+        
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, numquam quis perspiciatis ea ad omnis provident laborum dolore in atque.
+        
+                  <div title="You have selected this product to be shipped in the color yellow." style="top: 0" class="color yellow"></div>
+                  <div style="top: 43px" class="type small">XXL</div>
+                </div>
+        
+                <footer class="content">
+                  <span class="qt-minus">-</span>
+                  <span class="qt">2</span>
+                  <span class="qt-plus">+</span>
+        
+                  <h2 class="full-price">
+                    29,098RS
+                  </h2>
+        
+                  <h2 class="price">
+                    14,099RS
+                  </h2>
+                </footer>
+              </article>
+        
+              <article class="product">
+                <header>
+                  <a class="remove">
+                    <img src="http://www.astudio.si/preview/blockedwp/wp-content/uploads/2012/08/3.jpg" alt="">
+        
+                    <h3>Remove Product</h3>
+                  </a>
+                </header>
+        
+                <div class="content">
+        
+                  <h1>Drawings</h1>
+        
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, numquam quis perspiciatis ea ad omnis provident laborum dolore in atque.
+        
+                  <div title="You have selected this product to be shipped in the color red." style="top: 0" class="color red"></div>
+                  <div title="You have selected this product to be shipped sized Small."  style="top: 43px" class="type small">Small</div>
+                </div>
+        
+                <footer class="content">
+                  
+                  <span class="qt-minus">-</span>
+                  <span class="qt">1</span>
+                  <span class="qt-plus">+</span>
+        
+                  <h2 class="full-price">
+                    84,515Rs
+                  </h2>
+        
+                  <h2 class="price">
+                    20,212Rs
+                  </h2>
+                </footer>
+              </article>
+        
+              <article class="product">
+                <header>
+                  <a class="remove">
+                    <img src="http://www.astudio.si/preview/blockedwp/wp-content/uploads/2012/08/5.jpg" alt="">
+        
+                    <h3>Remove product</h3>
+                  </a>
+                </header>
+        
+                <div class="content">
+        
+                  <h1>Chair</h1>
+        
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, numquam quis perspiciatis ea ad omnis provident laborum dolore in atque.
+        
+                  <div title="You have selected this product to be shipped in the color blue." style="top: 0" class="color blue"></div>
+                  <div style="top: 43px" class="type small">Large</div>
+                </div>
+        
+                <footer class="content">
+                  
+                  <span class="qt-minus">-</span>
+                  <span class="qt">3</span>
+                  <span class="qt-plus">+</span>
+        
+                  <h2 class="full-price">
+                    53.992Rs
+                  </h2>
+        
+                  <h2 class="price">
+                    17,000Rs
+                  </h2>
+                </footer>
+              </article>
+        
+            </section>
+        
+          </div>
+        
+          <footer id="site-footer">
+            <div class="container clearfix">
+        
+              <div class="left">
+                <h2 class="subtotal">Subtotal: <span>163.96</span>RS</h2>
+                <h3 class="tax">Taxes (5%): <span>8.2</span>Rs</h3>
+                <h3 class="shipping">Shipping: <span>5.00</span>Rs</h3>
+              </div>
+        
+              <div class="right">
+                <h1 class="total">Total: <span>177.16</span>Rs</h1>
+                <a class="btn">Checkout</a>
+              </div>
+        
+            </div>
+          </footer>
+    </body>
+</html>

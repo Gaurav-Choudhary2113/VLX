@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="../STATIC/sell_styel.css">
+    <script src="https://kit.fontawesome.com/2fa09b3d44.js" crossorigin="anonymous"></script>
+
+    <title>Sell</title>
+</head>
+<body>
+    <div class="sell">
+        <form>
+            <br><br>
+            <h2>Seller Details</h2>
+            <br> <br>
+            <div class="row" >
+                <div class="input-group">
+                    <input type="text" id="name" maxlength="50"  required>
+                    <label for="name"><i class="fa-solid fa-user"></i> Seller Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="number" maxlength="10" required>
+                    <label for="number"><i class="fa-solid fa-phone"></i> Phone No</label>
+                </div>
+
+            </div>
+            
+            <div class="input-group">
+                <input type="email" id="email" maxlength="30" required>
+                <label for="email"><i class="fa-solid fa-envelope"></i> Email id</label>
+            </div>
+            <div class="input-group">
+                <input type="number" id="room-number" maxlegth="5" required>
+                <label for="room-number"><i class="fa-solid fa-person-shelter"></i> Room Number</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="block" maxlegth="40" required>
+                <label for="block"><i class="fa-solid fa-hotel"></i> Hostel/block</label>
+            </div>
+            <br> <br>
+            <h2>Product Info</h2>
+            <br> <br>
+            <div class="input-group">
+                <input type="text" id="Product name" maxlength="20" required>
+                <label for="Product name"><i class="fa-regular fa-truck-fast"></i> Product Name</label>
+            </div>
+            <div class="row" >
+                <div class="input-group">
+                    <input type="number" id="Quantity" maxlegth="2" required>
+                    <label for="Quantity"><i class="fa-solid fa-list-ol"></i> Quantity</label>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="price" maxlength="10" required>
+                    <label for="Price"><i class="fa-solid fa-indian-rupee-sign"></i> Total Price</label>
+                </div>
+            </div>
+            <div class="input-group">
+                <textarea id="message" maxlength="100" rows="8" required></textarea>
+                <label for="message"><i class="fa-solid fa-message-text"></i> Description</label>
+            </div> 
+            <div class="input-group">
+                <h4>Select image files at least 3</h4>
+                <input type="file" id="myfile" name="myfile" required />
+                <input type="file" id="myfile" name="myfile" required />
+                <input type="file" id="myfile" name="myfile" required />
+                <input type="file" id="myfile" name="myfile"/>
+                <input type="file" id="myfile" name="myfile"/>
+                <input type="file" id="myfile" name="myfile"/>
+            </div> 
+            <br>  <br>
+        
+
+            <button type="submit">Done</button>
+        </form>
+
+    </div>
+    
+</body>
+</html>
